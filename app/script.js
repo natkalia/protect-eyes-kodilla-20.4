@@ -92,6 +92,7 @@ class App extends React.Component {
         {/* images */}
         {status === "work" && <img src="./images/work.png" />}
         {status === "rest" && <img src="./images/rest.png" />}
+        {status === "off" && <img src="./images/eye.png" />}
 
         {/* timer */}
         {status !== "off" && (

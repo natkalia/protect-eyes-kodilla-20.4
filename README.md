@@ -23,4 +23,7 @@ Coming soon.
 # TODO's
 
 - [ ] fix problem with transpiling jsx in external component, probably issue with babel configuration
-- [ ] add custom images and text
+- [x] add custom images 
+
+# Credits
+* Images by rawpixel.com
