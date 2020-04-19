@@ -16,6 +16,10 @@ function main() {
 
   // load app/index.html as the window content
   mainWindow.loadFile(path.join('app', 'index.html'));
+  
+  // TODO: to be removed after finishing - enable dev tools
+  mainWindow.webContents.openDevTools();
+
 }
 
 app.on('ready', main);
