@@ -41,11 +41,13 @@ class App extends React.Component {
       time: this.state.time - 1,
     });
     if (this.state.time === 0 && this.state.status === "work") {
+      this.playBell();
       this.setState({
         status: "rest",
         time: 20,
       });
     } else if (this.state.time === 0 && this.state.status === "rest") {
+      this.playBell();
       this.setState({
         status: "work",
         time: 1200,
@@ -57,7 +59,7 @@ class App extends React.Component {
     this.setState({
       status: "work",
       timer: setInterval(this.step, 1000),
-      time: 1200, //1200
+      time: 12, 
     });
   };
 
@@ -72,6 +74,11 @@ class App extends React.Component {
   closeApp = () => {
     window.close();
   }
+
+  playBell = () => {
+    const bell = new Audio('./sounds/bell.wav');
+    bell.play();
+  };
 
   render() {
     const { status, time } = this.state;
@@ -102,7 +109,6 @@ class App extends React.Component {
             Stop
           </button>
         )}
-
         <button onClick={() => this.closeApp()} className="btn btn-close">
           X
         </button>
