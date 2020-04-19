@@ -1,4 +1,4 @@
-# :eyes: Protect your eyes :eyeglasses:
+# :eyes: Protect your eyes 20/20/20 :eyeglasses:
 
 Simple Electron desktop app to protect eyes built as exercise for Web Developer Bootcamp in Kodilla (Module 20.4).
 
@@ -13,7 +13,7 @@ According to optometrists in order to save your eyes, you should follow the 20/2
 
 # Screens 
 
-Coming soon.
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/49140572/79692503-c3697e80-8265-11ea-8f1d-6093d98093f3.gif)
 
 # To run
 
