@@ -24,7 +24,7 @@ p {
   padding: 10px 25px;
   color: #fff;
   font-family: inherit;
-  margin: 25px 10px;
+  margin: 20px 10px;
   text-transform: uppercase;
   outline: none;
   transition: .2s;
@@ -60,7 +60,7 @@ p {
 
 img {
   display: block;
-  width: 300px;
+  width: 280px;
   margin: 0 auto;
 }
 
