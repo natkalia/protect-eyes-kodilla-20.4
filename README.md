@@ -1,10 +1,15 @@
-# Protect your eyes :eyes: :eyeglasses:
+# :eyes: Protect your eyes :eyeglasses:
 
 Simple Electron desktop app to protect eyes built as exercise for Web Developer Bootcamp in Kodilla (Module 20.4).
 
 # Screens 
 
 Coming soon.
+
+# To run
+
+* Download or clone project to local folder.
+* Run `yarn start` in your console.
 
 # TODO's
 
