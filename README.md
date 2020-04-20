@@ -1,8 +1,8 @@
-# :eyes: Protect your eyes 20/20/20 :eyeglasses:
+# Protect your eyes 20/20/20 :eyeglasses: :eyes:
 
 Simple Electron desktop app to protect eyes built as exercise for Web Developer Bootcamp in Kodilla (Module 20.4).
 
-# Features
+## Features
 
 According to optometrists in order to save your eyes, you should follow the 20/20/20. It means you should to rest your eyes every 20 minutes for 20 seconds by looking more than 20 feet away. This app will help you track your time and inform you when it's time to rest. Crucial elements:
 
@@ -11,19 +11,19 @@ According to optometrists in order to save your eyes, you should follow the 20/2
 * Change of status causes playing the bell.
 * 'X' closes the app.
 
-# Screens 
+## Screenshots
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/49140572/79692503-c3697e80-8265-11ea-8f1d-6093d98093f3.gif)
 
-# To run
+## To run
 
 * Download or clone project to local folder.
 * Run `yarn start` in your console.
 
-# TODO's
+## TODO's / know bugs
 
 - [ ] fix problem with transpiling jsx in external component, probably issue with babel configuration
 - [x] add custom images 
 
-# Credits
+## Credits
 * Images by rawpixel.com
